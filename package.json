@@ -1,6 +1,6 @@
 {
   "name": "ng2-menu",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Angular2 Menu Directive",
   "license": "MIT",
   "main": "dist/index.js",
