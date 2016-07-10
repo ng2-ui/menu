@@ -36,7 +36,8 @@
   },
   "devDependencies": {
     "ng2-inline-template": "^0.1.1",
+    "rimraf": "^2.5.3",
     "typescript": "^1.8.10",
-    "typings": "^1.0.4"
+    "typings": "^1.3.1"
   }
 }
