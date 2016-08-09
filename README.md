@@ -1,9 +1,11 @@
 # ng2-menu
 Angular2 menu directive
 
-<a href="https://plnkr.co/edit/u6sihV?p=preview">
+<a href="https://ng2-ui.github.io/#/menu">
   <img src="http://i.imgur.com/w6yJBua.png" width="50% border="1" />
 </a>
+
+Plunker Example: https://plnkr.co/edit/u6sihV?p=preview
 
 ## Install
 
