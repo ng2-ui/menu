@@ -1,5 +1,4 @@
 import {Component, Type} from '@angular/core'
-import { Ng2MenuDirective } from 'ng2-menu';
 
 @Component({
   selector: 'my-app',
@@ -110,7 +109,6 @@ import { Ng2MenuDirective } from 'ng2-menu';
   
 </div>
     `,
-  directives: [<Type>Ng2MenuDirective],
   styles: [`
     ul.horizontal-menu {
       display: inline-block;
