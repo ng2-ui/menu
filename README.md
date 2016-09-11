@@ -16,7 +16,7 @@ Plunker Example: https://plnkr.co/edit/u6sihV?p=preview
 2. add `map` and `packages` to your `systemjs.config.js`. `ng2-menu` reuires `ng2-overlay`
 
         map['ng2-menu'] = 'node_modules/ng2-menu/dist';
-        packages['ng2-menu'] = { main: 'index.js', defaultExtension: 'js' }
+        packages['ng2-menu'] = { main: 'ng2-menu.umd.js', defaultExtension: 'js' }
 
 3. import Ng2MenuModule to your AppModule
         import { NgModule } from '@angular/core';

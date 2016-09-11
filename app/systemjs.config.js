@@ -19,9 +19,9 @@
   };
 
   map['ng2-menu'] = '../dist';
-  packages['ng2-menu'] = {main: 'index.js', defaultExtension: 'js'};
-  map['ng2-menu'] = '../src';
-  packages['ng2-menu'] = {main: 'index.ts', defaultExtension: 'ts'};
+  packages['ng2-menu'] = {main: 'ng2-menu.umd.js', defaultExtension: 'js'};
+  // map['ng2-menu'] = '../src';
+  // packages['ng2-menu'] = {main: 'index.ts', defaultExtension: 'ts'};
 
   System.config({
     transpiler: 'typescript', //use typescript for compilation
