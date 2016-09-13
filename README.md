@@ -40,7 +40,7 @@ For full example, please check out `test` directory to see the example of;
 
 3.  add ng2-menu.css into your html
 
-        <link rel="stylesheet" href="https://npmcdn.com/ng2-menu/dist/ng2-menu.css" />
+        <link rel="stylesheet" href="https://unpkg.com/ng2-menu/dist/ng2-menu.css" />
 
 ## Use it in your code
  You are ready. use it in your template
