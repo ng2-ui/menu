@@ -7,7 +7,7 @@
 		exports["ng2-menu"] = factory(require("@angular/core"), require("@angular/forms"), require("@angular/platform-browser"));
 	else
 		root["ng2-menu"] = factory(root["@angular/core"], root["@angular/forms"], root["@angular/platform-browser"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_4__, __WEBPACK_EXTERNAL_MODULE_5__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -55,56 +55,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-	    return c > 3 && r && Object.defineProperty(target, key, r), r;
-	};
-	var __metadata = (this && this.__metadata) || function (k, v) {
-	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-	};
-	var core_1 = __webpack_require__(1);
-	var forms_1 = __webpack_require__(2);
-	var platform_browser_1 = __webpack_require__(3);
-	var ng2_menu_directive_1 = __webpack_require__(4);
+	var ng2_menu_directive_1 = __webpack_require__(1);
 	exports.Ng2MenuDirective = ng2_menu_directive_1.Ng2MenuDirective;
-	var Ng2MenuModule = (function () {
-	    function Ng2MenuModule() {
-	    }
-	    return Ng2MenuModule;
-	}());
-	Ng2MenuModule = __decorate([
-	    core_1.NgModule({
-	        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
-	        declarations: [ng2_menu_directive_1.Ng2MenuDirective],
-	        exports: [ng2_menu_directive_1.Ng2MenuDirective]
-	    }),
-	    __metadata("design:paramtypes", [])
-	], Ng2MenuModule);
-	exports.Ng2MenuModule = Ng2MenuModule;
+	var ng2_menu_module_1 = __webpack_require__(3);
+	exports.Ng2MenuModule = ng2_menu_module_1.Ng2MenuModule;
 
 
 /***/ },
 /* 1 */
-/***/ function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
-
-/***/ },
-/* 2 */
-/***/ function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
-
-/***/ },
-/* 3 */
-/***/ function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_3__;
-
-/***/ },
-/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -117,7 +75,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var __metadata = (this && this.__metadata) || function (k, v) {
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
-	var core_1 = __webpack_require__(1);
+	var core_1 = __webpack_require__(2);
 	var Ng2MenuDirective = (function () {
 	    function Ng2MenuDirective(viewContainerRef) {
 	        this.viewContainerRef = viewContainerRef;
@@ -173,6 +131,58 @@ return /******/ (function(modules) { // webpackBootstrap
 	], Ng2MenuDirective);
 	exports.Ng2MenuDirective = Ng2MenuDirective;
 
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var __metadata = (this && this.__metadata) || function (k, v) {
+	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+	};
+	var core_1 = __webpack_require__(2);
+	var forms_1 = __webpack_require__(4);
+	var platform_browser_1 = __webpack_require__(5);
+	var ng2_menu_directive_1 = __webpack_require__(1);
+	var Ng2MenuModule = (function () {
+	    function Ng2MenuModule() {
+	    }
+	    return Ng2MenuModule;
+	}());
+	Ng2MenuModule = __decorate([
+	    core_1.NgModule({
+	        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
+	        declarations: [ng2_menu_directive_1.Ng2MenuDirective],
+	        exports: [ng2_menu_directive_1.Ng2MenuDirective]
+	    }),
+	    __metadata("design:paramtypes", [])
+	], Ng2MenuModule);
+	exports.Ng2MenuModule = Ng2MenuModule;
+
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_4__;
+
+/***/ },
+/* 5 */
+/***/ function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_5__;
 
 /***/ }
 /******/ ])

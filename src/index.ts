@@ -1,17 +1,7 @@
-
-import { NgModule } from '@angular/core';
-import { FormsModule } from "@angular/forms";
-import { BrowserModule  } from '@angular/platform-browser';
-
-import {Ng2MenuDirective} from "./ng2-menu-directive";
+import {Ng2MenuDirective} from "./ng2-menu.directive";
+import {Ng2MenuModule} from './ng2-menu.module';
 
 export {
-  Ng2MenuDirective
+  Ng2MenuDirective,
+  Ng2MenuModule
 };
-
-@NgModule({
-  imports: [ BrowserModule, FormsModule ],
-  declarations: [ Ng2MenuDirective ],
-  exports:  [ Ng2MenuDirective ]
-})
-export class Ng2MenuModule {}
