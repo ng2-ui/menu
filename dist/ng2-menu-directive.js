@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var Ng2MenuDirective = (function () {
     function Ng2MenuDirective(viewContainerRef) {
         this.viewContainerRef = viewContainerRef;
@@ -50,17 +50,17 @@ var Ng2MenuDirective = (function () {
             this.el.style.top = "0";
         }
     };
-    __decorate([
-        core_1.Input('ng2-menu'), 
-        __metadata('design:type', String)
-    ], Ng2MenuDirective.prototype, "position", void 0);
-    Ng2MenuDirective = __decorate([
-        core_1.Directive({
-            selector: '[ng2-menu]'
-        }), 
-        __metadata('design:paramtypes', [core_1.ViewContainerRef])
-    ], Ng2MenuDirective);
     return Ng2MenuDirective;
 }());
+__decorate([
+    core_1.Input('ng2-menu'),
+    __metadata("design:type", String)
+], Ng2MenuDirective.prototype, "position", void 0);
+Ng2MenuDirective = __decorate([
+    core_1.Directive({
+        selector: '[ng2-menu]'
+    }),
+    __metadata("design:paramtypes", [core_1.ViewContainerRef])
+], Ng2MenuDirective);
 exports.Ng2MenuDirective = Ng2MenuDirective;
 //# sourceMappingURL=ng2-menu-directive.js.map

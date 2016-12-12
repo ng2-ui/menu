@@ -72,16 +72,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	var Ng2MenuModule = (function () {
 	    function Ng2MenuModule() {
 	    }
-	    Ng2MenuModule = __decorate([
-	        core_1.NgModule({
-	            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
-	            declarations: [ng2_menu_directive_1.Ng2MenuDirective],
-	            exports: [ng2_menu_directive_1.Ng2MenuDirective]
-	        }), 
-	        __metadata('design:paramtypes', [])
-	    ], Ng2MenuModule);
 	    return Ng2MenuModule;
 	}());
+	Ng2MenuModule = __decorate([
+	    core_1.NgModule({
+	        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
+	        declarations: [ng2_menu_directive_1.Ng2MenuDirective],
+	        exports: [ng2_menu_directive_1.Ng2MenuDirective]
+	    }),
+	    __metadata("design:paramtypes", [])
+	], Ng2MenuModule);
 	exports.Ng2MenuModule = Ng2MenuModule;
 
 
@@ -159,18 +159,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	            this.el.style.top = "0";
 	        }
 	    };
-	    __decorate([
-	        core_1.Input('ng2-menu'), 
-	        __metadata('design:type', String)
-	    ], Ng2MenuDirective.prototype, "position", void 0);
-	    Ng2MenuDirective = __decorate([
-	        core_1.Directive({
-	            selector: '[ng2-menu]'
-	        }), 
-	        __metadata('design:paramtypes', [core_1.ViewContainerRef])
-	    ], Ng2MenuDirective);
 	    return Ng2MenuDirective;
 	}());
+	__decorate([
+	    core_1.Input('ng2-menu'),
+	    __metadata("design:type", String)
+	], Ng2MenuDirective.prototype, "position", void 0);
+	Ng2MenuDirective = __decorate([
+	    core_1.Directive({
+	        selector: '[ng2-menu]'
+	    }),
+	    __metadata("design:paramtypes", [core_1.ViewContainerRef])
+	], Ng2MenuDirective);
 	exports.Ng2MenuDirective = Ng2MenuDirective;
 
 
