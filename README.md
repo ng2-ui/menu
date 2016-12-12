@@ -1,7 +1,7 @@
 # ng2-menu
 Angular2 menu directive
 
-<a href="https://ng2-ui.github.io/#/menu">
+<a href="https://rawgit.com/ng2-ui/ng2-menu/master/app/index.html">
   <img src="http://i.imgur.com/w6yJBua.png" width="50% border="1" />
 </a>
 

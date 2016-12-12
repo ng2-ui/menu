@@ -1,8 +1,13 @@
+// polyfills, comment the following out for debugging purpose
+import 'core-js/es6';
+import 'core-js/es7/reflect';
+import 'zone.js/dist/zone';
+
 // The browser platform with a compiler
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { NgModule }       from '@angular/core';
-import { BrowserModule }  from '@angular/platform-browser';
+import { CommonModule }   from '@angular/common';
 import { FormsModule }    from "@angular/forms";
 
 import { AppComponent }   from './app.component';
@@ -10,7 +15,7 @@ import { AppComponent }   from './app.component';
 import { Ng2MenuModule }  from 'ng2-menu';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, Ng2MenuModule],
+  imports: [CommonModule, FormsModule, Ng2MenuModule],
   declarations: [AppComponent],
   bootstrap: [ AppComponent ]
 })
