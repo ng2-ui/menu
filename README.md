@@ -1,7 +1,7 @@
-# ng2-menu
+# menu
 Angular2 menu directive
 
-<a href="https://rawgit.com/ng2-ui/ng2-menu/master/app/index.html">
+<a href="https://rawgit.com/ng2-ui/menu/master/app/index.html">
   <img src="http://i.imgur.com/w6yJBua.png" width="50% border="1" />
 </a>
 
@@ -9,24 +9,23 @@ Plunker Example: https://plnkr.co/edit/u6sihV?p=preview
 
 ## Install
 
-1. install ng2-menu
+1. install @ngui/menu
 
-        $ npm install ng2-menu --save
+        $ npm install @ngui/menu --save
 
-2. add `map` and `packages` to your `systemjs.config.js`. `ng2-menu` reuires `ng2-overlay`
+2. add `map` and `packages` to your `systemjs.config.js`. 
 
-        map['ng2-menu'] = 'node_modules/ng2-menu/dist';
-        packages['ng2-menu'] = { main: 'ng2-menu.umd.js', defaultExtension: 'js' }
+        map['@ngui/menu'] = 'node_modules/@ngui/menu/dist/menu.umd.js';
 
-3. import Ng2MenuModule to your AppModule
+3. import NguiMenuModule to your AppModule
         import { NgModule } from '@angular/core';
         import { FormsModule } from "@angular/forms";
         import { BrowserModule  } from '@angular/platform-browser';
         import { AppComponent } from './app.component';
-        import { Ng2MenuModule } from 'ng2-Menu';
+        import { NguiMenuModule } from '@ngui/menu';
         
         @NgModule({
-          imports: [BrowserModule, FormsModule, Ng2MenuModule],
+          imports: [BrowserModule, FormsModule, NguiMenuModule],
           declarations: [AppComponent],
           bootstrap: [ AppComponent ]
         })
@@ -38,20 +37,20 @@ For full example, please check out `test` directory to see the example of;
   - `app.module.ts`
   -  and `app.component.ts`.
 
-3.  add ng2-menu.css into your html
+3.  add ngui-menu.css into your html
 
-        <link rel="stylesheet" href="https://unpkg.com/ng2-menu/dist/ng2-menu.css" />
+        <link rel="stylesheet" href="https://unpkg.com/menu/dist/ngui-menu.css" />
 
 ## Use it in your code
  You are ready. use it in your template
 
-       <ul ng2-menu>
+       <ul ngui-menu>
          <li> Menu Item 1 </li>
          <li> Menu Item 2
-           <ul ng2-menu>
+           <ul ngui-menu>
              <li> Menu Item 2-1 </li>
              <li> Menu Item 2-2 
-               <ul ng2-menu>
+               <ul ngui-menu>
                  <li> Menu Item 2-2-1 </li>
                  <li> Menu Item 2-2-2 </li>
                  <li> Menu Item 2-2-3 </li>

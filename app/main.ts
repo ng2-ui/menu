@@ -12,10 +12,10 @@ import { FormsModule }    from "@angular/forms";
 
 import { AppComponent }   from './app.component';
 //noinspection TypeScriptCheckImport
-import { Ng2MenuModule }  from 'ng2-menu';
+import { NguiMenuModule }  from '@ngui/menu';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, Ng2MenuModule],
+  imports: [CommonModule, FormsModule, NguiMenuModule],
   declarations: [AppComponent],
   bootstrap: [ AppComponent ]
 })
