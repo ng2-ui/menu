@@ -1,6 +1,9 @@
 # menu
 Angular2 menu directive
 
+## IMPORTANT: NOT-MAINTAINED
+Accepting volunteers and ready to transfer ownership.
+
 <a href="https://rawgit.com/ng2-ui/menu/master/app/index.html">
   <img src="http://i.imgur.com/w6yJBua.png" width="50% border="1" />
 </a>
